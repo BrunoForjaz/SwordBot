@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #23282f 16.62%, #4B4CA2 85%);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.cabecalho-img{
+    height: 72px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 40px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(252, 248, 213);
+}
+
+.conteudo{
+    border-top: 0.1px solid rgba(252, 248, 213, 0.5);
+    margin-bottom: 35px;
+}
+
+.conteudo-principal{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 35px;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 62px;
+    color: rgb(159, 180, 209);
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: rgb(219, 219, 216);
+}
+
+.conteudo-principal-escrito-botao{
+    width: 230px;
+    height: 60px;
+    position: relative;
+    top: 32px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    background-color: rgb(153, 171, 196);
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(41, 39, 39);
+}
+
+.conteudo-principal-img{
+    height: 450px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+    margin-top: 40px;
+}
+
+.conteudo-secundario-titulo{
+    border-top: 0.1px solid rgba(252, 248, 213, 0.6);
+    padding-top: 50px;
+    margin-bottom: 10px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 22px;
+    color: rgb(159, 180, 209);
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(219, 219, 216);
+}
+
+.rodape{
+    border-top: 0.1px solid rgba(252, 248, 213, 0.5);
+    margin-top: 40px;
+}
+
+.rodape-img{
+    height: 140px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
